@@ -2,7 +2,7 @@ apiVersion: skaffold/v1beta2
 kind: Config
 build:
   artifacts:
-  - image: Raphael-AWS/shining-stars
+  - image: raphael124/shining-stars
     context: .
     docker: {}
   tagPolicy:
